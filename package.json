@@ -1,0 +1,36 @@
+{
+  "name": "browser-sync-middleware-proxy-routes",
+  "version": "0.1.0",
+  "description": "A Browsersync middleware that provides route support when running Browsersync as a proxy server.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:npetruzzelli/browser-sync-middleware-proxy-routes.git"
+  },
+  "keywords": [],
+  "author": "Nick Petruzzelli <code.npetruzzelli@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "lodash.foreach": "^4.5.0",
+    "lodash.isplainobject": "^4.0.6",
+    "serve-static": "^1.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-prettier-standard": "^1.0.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.5.2"
+  }
+}
